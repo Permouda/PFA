@@ -1,0 +1,13 @@
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\bin\Debug\netcoreapp3.1\Vote_sys.exe
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\bin\Debug\netcoreapp3.1\Vote_sys.deps.json
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\bin\Debug\netcoreapp3.1\Vote_sys.runtimeconfig.json
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\bin\Debug\netcoreapp3.1\Vote_sys.runtimeconfig.dev.json
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\bin\Debug\netcoreapp3.1\Vote_sys.dll
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\bin\Debug\netcoreapp3.1\Vote_sys.pdb
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.csprojAssemblyReference.cache
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.csproj.CoreCompileInputs.cache
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.AssemblyInfoInputs.cache
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.AssemblyInfo.cs
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.dll
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.pdb
+D:\2022\Etude\PFA\Projet_1\PFA\Asp.net_core\Vote_sys\obj\Debug\netcoreapp3.1\Vote_sys.genruntimeconfig.cache
