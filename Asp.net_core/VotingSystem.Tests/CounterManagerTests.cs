@@ -6,17 +6,12 @@ using static Xunit.Assert;
 
 namespace VotingSystem.Tests
 {
-    public class CounterTests
+    public class CounterManagerTests
     {
         public const string CounterName = "Counter Name";
         public Counter _counter = new Counter { Name = CounterName, Count = 5 };
 
-        [Fact]
-        public void HasName()
-        {
-            Equal(CounterName, _counter.Name);
-        }
-
+        
         [Fact]
         public void GetStatistics_IncludesCounterName()
         {
@@ -122,15 +117,16 @@ namespace VotingSystem.Tests
         public int Count { get; set; }
         public double Percent { get; set; }
 
+       
+    }
+
+    public class CounterManager
+    {
         public Counter GetStatistics(int totalCount)
         {
             Percent = CounterManager.RoundUp(Count * 100.0 / totalCount);
             return this;
         }
-    }
-
-    public class CounterManager
-    {
         public void ResolveExcess(List<Counter> counters)
         {
             var totalPercent = counters.Sum(x => x.Percent);

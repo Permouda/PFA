@@ -78,6 +78,8 @@ button, input {
  /* display: flex;*/
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 
 }
 .body_per{
@@ -92,11 +94,55 @@ button, input {
   padding: 0;
   margin: 0;
 
+
 }
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--black-color);
+ /*  background-color: var(--black-color); */
   color: var(--text-color);
+  background-color: var(--first-color);
+
 }
+h1{
+  font-weight:normal;
+  font-family: var(--title-font);
+  font-size: var(--h1-font-size);
+}
+h2{
+  font-weight: normal;
+  font-size: var(--h2-font-size);
+  color: var(--text-color-light);
+}
+p{
+  color: var(--body-color); 
+}
+h3{
+  font-size:var(--h3-font-size);
+  color:var(--text-color);
+  margin-right: 10px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--first-color);
+  border-radius: 0 20px 20px 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
