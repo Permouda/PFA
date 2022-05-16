@@ -3,12 +3,16 @@ import './App.css';
 import Head from "./composant/navbar/header";
 import Aboard from './composant/Admin_board/Aboard';
 
+import Partie_politique from './composant/Liste_PP/Partie_politique';
+
+
 function App() {
   return (
     <div className="App">
     {/*  <Login_1 /> */}
     <Head />
-    <Aboard />
+    
+    <Partie_politique/>
     </div>
   );
 }

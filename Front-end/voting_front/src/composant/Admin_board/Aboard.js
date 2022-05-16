@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Aboard.css"
+import Liste_pp from '../Liste_PP/liste_pp'
 
 export default function Aboard() {
   return (
@@ -16,37 +17,9 @@ export default function Aboard() {
                 
             </div>
             <div className='left_side_1'>
-                <div className='liste'><div className='scroller'>
-                
-                <div className='liste_1'>
-                    <h2>1</h2>
-                    <h3>Partie 1</h3>
-                    <img src={process.env.PUBLIC_URL + '/Permouda_pic_1.jpg'} className="partie_pic"/>
-                    <div className='nav__item btnn'>
-                        <a className='nav__link'>info</a></div>
-                </div>
-                <div className='liste_1'>
-                    <h2>1</h2>
-                    <h3>Partie 1</h3>
-                    <img src={process.env.PUBLIC_URL + '/Permouda_pic_1.jpg'} className="partie_pic"/>
-                    <div className='nav__item btnn'>
-                        <a className='nav__link'>info</a></div>
-                </div>
-                <div className='liste_1'>
-                    <h2>1</h2>
-                    <h3>Partie 1</h3>
-                    <img src={process.env.PUBLIC_URL + '/Permouda_pic_1.jpg'} className="partie_pic"/>
-                    <div className='nav__item btnn'>
-                        <a className='nav__link'>info</a></div>
-                </div>
-                <div className='liste_1'>
-                    <h2>1</h2>
-                    <h3>Partie 1</h3>
-                    <img src={process.env.PUBLIC_URL + '/Permouda_pic_1.jpg'} className="partie_pic"/>
-                    <div className='nav__item btnn'>
-                        <a className='nav__link'>info</a></div>
-                </div>
-
+                <div className='liste'>
+                    <div className='scroller'>
+                <Liste_pp />
                 </div>
                 </div>
                 
