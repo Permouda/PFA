@@ -1,0 +1,12 @@
+.Pie_1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.Pie_2{
+    width: 600px;
+    padding: 10px;
+    background-color: var(--white-color);
+    border-radius: 30px;
+
+}

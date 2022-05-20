@@ -1,0 +1,20 @@
+kaynin jouj dial les folder hnaya:
+Asp.net_core : hada nssah db
+Front-end : hada dial lfront
+
+ghadi ykhssk tblassa fterminal;:
+./Front-end/voting_front
+
+hna fin ghatlancer:
+npm start
+
+illa tl3 had l'erreur
+< 'react-scripts'error >:
+npm install react-scripts
+
+
+fwest mn vonting_front kayn folder dial composent fih bzf dles folder koul wa7d w lcomposant dialu
+
+
+part 2:
+ghadi takhod lprjt mn 3and ayoub w ghat7tou flfolder dial PFA, 7da ./Front-end
